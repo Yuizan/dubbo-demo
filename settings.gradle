@@ -1,1 +1,8 @@
 rootProject.name = 'dubbodemo'
+include 'dubbo-api'
+include 'dubbo-provider'
+include 'dubbo-consumer'
+
+project(":dubbo-api").name = "dubboApi"
+project(":dubbo-provider").name = "dubboProvider"
+project(":dubbo-consumer").name = "dubboConsumer"
